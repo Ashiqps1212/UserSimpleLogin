@@ -9,7 +9,7 @@ export class authenticationService {
     logout(){
         localStorage.removeItem('currentUser');
         localStorage.removeItem('id');
-        //localStorage.removeItem('data');
+        localStorage.removeItem('data');
 
     }
 
